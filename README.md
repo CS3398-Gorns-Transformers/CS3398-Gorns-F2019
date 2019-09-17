@@ -1,7 +1,7 @@
 # CS3398-Gorns-F2019
 
 # Project Name
-> Hiking App!
+> Hiking App -- This App will give general information about hiking. It will include Austin hiking conditions, Austin water levels, and Austin weather conditions.
 
 ## Description
 > Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
@@ -23,9 +23,10 @@ Add more general information about project. What the purpose of the project is? 
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Ionic Framework - version 4.0
+* Java - version 9.0
+* HTML - version 5.0
+* CSS version 3.0
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
@@ -36,9 +37,9 @@ Show examples of usage:
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Austin hiking conditions
+* Austin water levels
+* Austin weather conditions
 
 To-do list:
 * Wow improvement to be done 1
