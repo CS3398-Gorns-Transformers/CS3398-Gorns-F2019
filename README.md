@@ -3,6 +3,9 @@
 # Project Name
 > Here goes your awesome project description!
 
+## Description
+> Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
+
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
