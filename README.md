@@ -53,7 +53,7 @@ Add here credits. Project inspired by..., based on...
 
 ## Contact
 Andrew Baker -- asb104@txstate.edu
+Daniel Greenberg -- dmg143@txstate.edu
 Nickson Mbwavi -- nlm64@txstate.edu
 liliane Nzukou -- ldn24@txstate.edu
 Paxton Scott -- pas151@txstate.edu
-Daniel Greenberg -- dmg143@txstate.edu
