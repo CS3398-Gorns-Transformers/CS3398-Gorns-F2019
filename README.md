@@ -1,7 +1,7 @@
 # CS3398-Gorns-F2019
 
 # Project Name
-> Here goes your awesome project description!
+> Hiking App!
 
 ## Description
 > Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
@@ -51,3 +51,8 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 Add here credits. Project inspired by..., based on...
 
 ## Contact
+Andrew Baker -- asb104@txstate.edu
+Nickson Mbwavi -- nlm64@txstate.edu
+liliane Nzukou -- ldn24@txstate.edu
+Paxton Scott -- pas151@txstate.edu
+Daniel Greenberg -- dmg143@txstate.edu
