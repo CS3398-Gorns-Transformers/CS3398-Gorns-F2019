@@ -62,7 +62,11 @@ http://localhost:3000
 
 
 ## Installing
-In VSCode, install StandardJS
+1)  https://nodejs.org/en/ and install latest version of Node.js.
+2)  Inside terminal or Command Run "npm install -g ionic"
+3)  Upload code into directory
+4)  Enter directory in CLI and run "ionic lab" for App version and "ionic serve" for webserver.
+
 
 ```sh
 npm install standard --global
