@@ -83,7 +83,7 @@ To-do list:
 * 
 
 ## Status
-Project is: _In Progress_ - We are in the begining states of app development focusing mainly on front end development until we have a product to test against a aback end.
+Project is: _In Progress_ - We are in the begining states of app development focusing mainly on front end development until we have a product to test against a back end.
 
 ## Inspiration
 Project inspired by Andrew Baker
