@@ -88,6 +88,11 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * ![status](https://img.shields.io/badge/Paxton's-Status-blue) : Working on wireframe for the Austin water level UI
 * ![nextsteps](https://img.shields.io/badge/Paxton's-Next%20Steps-brightgreen) : Create backend for water level UI
 
+Artifact:
+* Wireframe of Austin Water Levels (Mobile)
+ - Shows a sketch of how the UI will look as users interact with this portion of the app
+ 
+
 ## Inspiration
 Project inspired by Andrew Baker
 
