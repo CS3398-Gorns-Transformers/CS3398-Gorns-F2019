@@ -92,6 +92,10 @@ Project is: _In Progress_ - We are in the begining states of app development foc
   longitude, and altitude on the app.
 * ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Working on creating list in application to display hiking trails.
 * ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Creating the search bar to search for names of trails.
+* ![status](https://img.shields.io/badge/Nickson's-Status-blue) : Working on front end for user friendly UI.
+* ![nextsteps](https://img.shields.io/badge/Nickson's-Next%20Steps-brightgreen) : Completing adding UI features.
+* ![status](https://img.shields.io/badge/Andrew's-Status-blue) : working on overlaying tab menu at the bottom of the app.
+* ![nextsteps](https://img.shields.io/badge/Andrew's-Next%20Steps-brightgreen) : Completing the creation of overlaying tab menu at the bottom of the app to help with a main form of routing for users.
 
 ## Documentations
 * [Sketch of App Appearance](./Appearance.jpg)
