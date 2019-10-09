@@ -102,7 +102,7 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * [Sketch of Feature Hierarchy](./FeatureHierarchy.jpg)
 * [List of Search Filter Criteria](./SearchFilters.jpg)
 * [Sketch of Weather Panel Appearance](./Weather.jpg)
-* [Sketch of clickable map](./ClickableMap.PNG)
+* [Sketch of clickable map](./ClickableMap.png)
 
 
 ## Inspiration
