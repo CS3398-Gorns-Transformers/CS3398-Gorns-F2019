@@ -93,6 +93,12 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Working on creating list in application to display hiking trails.
 * ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Creating the search bar to search for names of trails.
 
+## Documentations
+* [Sketch of App Appearance]
+* [Sketch of Feature Hiearchy]
+* [List of Search Filter Criteria]
+* [Sketch of Weather Panel Appearance]
+
 ## Inspiration
 Project inspired by Andrew Baker
 
