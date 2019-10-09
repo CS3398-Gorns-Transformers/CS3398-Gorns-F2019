@@ -90,6 +90,8 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * ![status](https://img.shields.io/badge/Liliane's-Status-blue) : Working on Clickable Google maps coordinates.
 * ![nextsteps](https://img.shields.io/badge/Liliane's-Next%20Steps-brightgreen) : Adding Google maps coordinates like latitude, 
   longitude, and altitude on the app.
+* ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Working on creating list in application to display hiking trails.
+* ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Creating the search bar to search for names of trails.
 
 ## Inspiration
 Project inspired by Andrew Baker
@@ -98,5 +100,5 @@ Project inspired by Andrew Baker
 Andrew Baker -- asb104@txstate.edu
 Daniel Greenberg -- dmg143@txstate.edu
 Nickson Mbwavi -- nlm64@txstate.edu
-liliane Nzukou -- ldn24@txstate.edu
+Liliane Nzukou -- ldn24@txstate.edu
 Paxton Scott -- pas151@txstate.edu
