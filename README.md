@@ -95,7 +95,7 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 
 ## Documentations
 * [Sketch of App Appearance](./Appearance.jpg)
-* [Sketch of Feature Hiearchy](./FeatureHiearchy.jpg)
+* [Sketch of Feature Hierarchy](./FeatureHierarchy.jpg)
 * [List of Search Filter Criteria](./SearchFilters.jpg)
 * [Sketch of Weather Panel Appearance](./Weather.jpg)
 
