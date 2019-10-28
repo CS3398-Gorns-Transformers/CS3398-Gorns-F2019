@@ -1,12 +1,28 @@
+<!-- Header -->
+ 
+ <ion-header translucent>
+    <ion-toolbar>
+
+      <!-- Left button/icon on header -->
+    <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon slot="icon-only" color = "primary" name="star-half"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+      <!-- right button/icon on header -->
+        <ion-title color = "primary" text-center>Home</ion-title>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" color = "primary" name="bicycle"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
 
     
-<ion-header translucent>
-  <ion-toolbar>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+
+      
+  </ion-header>
 
 <!---- create card for trails  -->
 
@@ -20,12 +36,8 @@
             <ion-icon name="pin"></ion-icon>
           </ion-fab-button>
         </ion-fab>
-    
-   
-      
-     
-  
   </ion-card>
+
   <ion-card>
       <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
       <div class="card-title">Barton Creek</div>
@@ -35,12 +47,8 @@
             <ion-icon name="pin"></ion-icon>
           </ion-fab-button>
         </ion-fab>
-    
-   
-      
-     
-  
   </ion-card>
+
   <ion-card>
       <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
       <div class="card-title">Barton Creek</div>
@@ -50,12 +58,8 @@
             <ion-icon name="pin"></ion-icon>
           </ion-fab-button>
         </ion-fab>
-    
-   
-      
-     
-  
   </ion-card>
+
   <ion-card>
       <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
       <div class="card-title">Barton Creek</div>
@@ -65,76 +69,7 @@
             <ion-icon name="pin"></ion-icon>
           </ion-fab-button>
         </ion-fab>
-    
-   
-      
-     
-  
   </ion-card>
 </ion-content>
 
 
-<script>
-    customElements.define('modal-content', class ModalContent extends HTMLElement {
-      connectedCallback() {
-        this.innerHTML = `
-          <ion-header translucent>
-            <ion-toolbar>
-              <ion-title>Modal Content</ion-title>
-              <ion-buttons slot="end">
-                <ion-button onclick="dismissModal()">Close</ion-button>
-              </ion-buttons>
-            </ion-toolbar>
-          </ion-header>
-          <ion-content fullscreen>
-            <ion-list>
-              <ion-item>
-                <ion-avatar slot="start">
-                  <ion-img src="./avatar-gollum.jpg"/>
-                </ion-avatar>
-                <ion-label>
-                  <h2>Gollum</h2>
-                  <p>Sneaky little hobbitses!</p>
-                </ion-label>
-              </ion-item>
-              <ion-item>
-                <ion-avatar slot="start">
-                  <ion-img src="./avatar-frodo.jpg"/>
-                </ion-avatar>
-                <ion-label>
-                  <h2>Frodo</h2>
-                  <p>Go back, Sam! I'm going to Mordor alone!</p>
-                </ion-label>
-              </ion-item>
-              <ion-item>
-                <ion-avatar slot="start">
-                  <ion-img src="./avatar-samwise.jpg"/>
-                </ion-avatar>
-                <ion-label>
-                  <h2>Samwise</h2>
-                  <p>What we need is a few good taters.</p>
-                </ion-label>
-              </ion-item>
-            </ion-list>
-          </ion-content>
-        `;
-      }
-    });
-    let currentModal = null;
-    const controller = document.querySelector('ion-card');
-    const button = document.querySelector('ion-button');
-    button.addEventListener('click', createModal);
-    function createModal() {
-      controller.create({
-        component: 'modal-content'
-      }).then(modal => {
-        modal.present();
-        currentModal = modal;
-      });
-    }
-    function dismissModal() {
-      if (currentModal) {
-        currentModal.dismiss().then(() => { currentModal = null; });
-      }
-    }
-  </script>
