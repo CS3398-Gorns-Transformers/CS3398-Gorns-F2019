@@ -12,7 +12,7 @@ export class Tab2Page implements OnInit, AfterContentInit{
   
   @ViewChild('mapElement', { static: true }) mapElement: ElementRef<HTMLDivElement>; 
   constructor() {}
-
+  
   ngOnInit(): void{ 
   }
 
