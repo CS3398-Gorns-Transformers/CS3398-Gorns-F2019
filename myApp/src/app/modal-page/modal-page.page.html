@@ -1,9 +1,16 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>modal-page</ion-title>
-  </ion-toolbar>
-</ion-header>
 
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-icon name="close-circle-outline" slot="end" (click)="dismiss()"></ion-icon>
+      <ion-title>
+         <ion-img src="..\assets\icon\TXSTimg.jpg" ></ion-img>
+          <p> </p>
+      </ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
 <ion-content>
-<ion-button (click)="Dismiss()">Dismiss</ion-button>
+
+<div #mapElement class="map"></div>
+
 </ion-content>

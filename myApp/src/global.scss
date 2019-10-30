@@ -24,3 +24,21 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-toolbar{
+    color:rgb(122, 33, 55) ;
+    
+}
+ion-fab{
+    --color-active: rgb(122, 33, 55);
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(122, 33, 55);
+  }
+  ion-img {
+  
+    height: 65px;
+    
+  
+  }
