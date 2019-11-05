@@ -27,6 +27,7 @@
 
 ion-toolbar{
     color:rgb(122, 33, 55) ;
+    size: auto;
     
 }
 ion-fab{
@@ -39,6 +40,8 @@ ion-fab{
   ion-img {
   
     height: 65px;
-    
+    vertical-align: bottom;
   
   }
+  
+  
