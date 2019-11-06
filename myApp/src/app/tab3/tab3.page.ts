@@ -68,4 +68,13 @@ Geolocation to return to OpenWeather Api and have corilation long/lat
     })
 
   }
+
+  GenerateSuggestedOutfitPictures(latitude, longitude){
+    var url = "https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=6fb4b94a9daebbd864d11310ef52c584";
+    this.httpClient.get(url).subscribe((temperaturedate)=>{
+      
+    })
+
+
+  }
 }

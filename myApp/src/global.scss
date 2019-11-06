@@ -31,17 +31,25 @@ ion-toolbar{
     
 }
 ion-fab{
-    --color-active: rgb(122, 33, 55);
+    --color-active: #7a2137;
     border-style: solid;
     border-radius: 50%;
     border-width: 2px;
     border-color: rgb(122, 33, 55);
   }
   ion-img {
-  
+    
+    
     height: 65px;
     vertical-align: bottom;
   
   }
-  
-  
+  ion-content{
+
+    --background: rgb(122, 33, 55);
+  }
+  ion-toolbar {
+    padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+    padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+    --height: 55px;
+    }
