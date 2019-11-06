@@ -53,3 +53,10 @@ ion-fab{
     padding-top: env(safe-area-inset-top); /* iOS 11.2 */
     --height: 55px;
     }
+    ion-header{
+
+      height: 65px;
+    }
+    .modalimg{
+      padding-right: 0.33in;
+  }
