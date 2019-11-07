@@ -5,6 +5,9 @@
 
 ## Description
 > Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
+  --Members Achievments--
+  Andrew Baker: -Successfully Implemented Geolocation to feed into OpenWeather API and return subsequent data.
+                -Implmented Google Maps API and set up User Interface and themeing of app.
 
 ## Table of contents
 * [General info](#general-info)
