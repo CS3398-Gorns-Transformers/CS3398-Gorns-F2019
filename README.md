@@ -103,6 +103,7 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * [List of Search Filter Criteria](./SearchFilters.jpg)
 * [Sketch of Weather Panel Appearance](./Weather.jpg)
 * [Sketch of clickable map](./ClickableMap.png)
+* [UI - Sprint 2](./ui.png)
 
 
 ## Inspiration
