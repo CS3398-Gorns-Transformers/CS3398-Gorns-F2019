@@ -10,16 +10,10 @@ import {Tab2Page} from "../../tab2/tab2.page";
 
 export class BartonCreekPage implements OnInit {
   public Value : string = "Currently Not on Favorites";
-  public sheet : HTMLStyleElement = document.createElement('style');
   counter : number = 1;
   
   
-  constructor() { 
-    this.sheet.innerHTML = "ion-card {position: relative;\
-      text-align: center;\
-      visibility: hidden ;}";
-      
-  }
+  constructor() {}
 
   ngOnInit() {
   }
