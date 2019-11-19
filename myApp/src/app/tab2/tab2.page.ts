@@ -1,5 +1,7 @@
 import { Component, OnInit, AfterContentInit, ViewChild, ElementRef } from '@angular/core';
 
+import { BartonCreekPageModule } from '../Trail-Pages/barton-creek/barton-creek.module';
+
 
 
 @Component({
@@ -8,7 +10,11 @@ import { Component, OnInit, AfterContentInit, ViewChild, ElementRef } from '@ang
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  constructor(){
+    
+  }
   
-
+ 
+  
   
 }

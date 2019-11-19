@@ -11,8 +11,8 @@
    
   </ion-header>
 
-<ion-content padding-top padding-bottom>
-<ion-card color="primary" padding>
+<ion-content padding-top>
+<ion-card color="primary" padding-top>
     <ion-card-header>
         <ion-card-subtitle>Trail: </ion-card-subtitle> 
       <ion-card-title>Barton Creek Trail</ion-card-title>
@@ -25,9 +25,12 @@
          <ion-item> <b>Camping Allowed:</b> </ion-item>
          <ion-item> <b>Fires Allowed:</b> </ion-item>
         </ion-card-content>
-        <ion-button expand="full" color="secondary">Add to My Trail List</ion-button>
+        <ion-button expand="full" color="secondary" (click)="alert()">Add to My Trail List</ion-button>
+        
 </ion-card>
-<ion-card>
+
+<ion-card padding color="primary">{{Value}}</ion-card>
+<ion-card color="primary">
 <ion-slides scrollbar="true">
   <ion-slide style="width:100%;height: 2.0in;">
       <img class="slideimg" src="../assets/Barton1.jpg" style="width:100%;height:auto;" >
@@ -35,16 +38,27 @@
   <ion-slide style="width:100%;height: 2.0in;">
       <img class="slideimg" src="../assets/Barton2.jpg" style="width:100%;height:auto;" >
   </ion-slide>
-  <ion-slide>
+  <ion-slide style="width:100%;height: 2.0in;">
+    <img class="slideimg" src="..\assets\BartonCreekGreenbelt\BartonC.jpg" style="width:100%;height:auto;" >
     
   </ion-slide>
-  <ion-slide>
+  <ion-slide style="width:100%;height: 2.0in;">
+    <img class="slideimg" src="..\assets\BartonCreekGreenbelt\bartonC1.jpg" style="width:100%;height:auto;" >
 
   </ion-slide>
-  <ion-slide>
+  <ion-slide style="width:100%;height: 2.0in;">
+    <img class="slideimg" src="..\assets\BartonCreekGreenbelt\BartonC2.jpg" style="width:100%;height:auto;" >
 
   </ion-slide>
+  <ion-slide style="width:100%;height: 2.0in;">
+    <img class="slideimg" src="..\assets\BartonCreekGreenbelt\BartonC3.jpg" style="width:100%;height:auto;" >
 
+  </ion-slide>
+  <ion-slide style="width:100%;height: 2.0in;">
+    <img class="slideimg" src="..\assets\BartonCreekGreenbelt\BartonC4.jpg" style="width:100%;height:auto;" >
+
+  </ion-slide>
+  
 </ion-slides>
 </ion-card>
 </ion-content>
