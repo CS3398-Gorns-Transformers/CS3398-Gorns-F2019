@@ -1,7 +1,0 @@
-Formula: Time = Trail Length/Speed
-
-Average Walking Speed: 3.1mph
-Average Jogging Speed: 5mph
-Average Biking Speed: 11mph
-
-Hiking limit: 4-6 hours
