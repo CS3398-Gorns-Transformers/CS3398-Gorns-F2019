@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-toolbar color="primary" >
+        
+         <ion-img class="modalimg" src="../assets/TXSTimg.jpg" padding-right ></ion-img>
+        
+            <ion-icon name="arrow-back" slot="start" size="large" routerLink="" routerDirection="root" >Back</ion-icon>
+         
+      
+      
+    </ion-toolbar>
+   
+  </ion-header>
+
+<ion-content padding-top padding-bottom>
+    <ion-card color="primary" >
+        <ion-card-header>
+            <ion-card-subtitle>Trail: </ion-card-subtitle> 
+          <ion-card-title>River Place Nature Trail</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+             <ion-item> <b padding>Address: </b> 4998 River Pl Blvd, Austin, TX 78730</ion-item>
+             <ion-item> <b padding>Trail Length: </b> 5.5 mi </ion-item>
+             <ion-item> <b padding>Average Walk Time: </b> 2.3 hours</ion-item>
+              <ion-item> <b padding>Average Walk Time: </b> 4.45 hours</ion-item>
+             <ion-item> <b padding>Elevation: </b> 823 ft</ion-item>
+            <ion-item> <b padding>Route-Type: </b> Out & Back</ion-item>
+            <ion-item> <b padding>Kid-Friendly: </b> No</ion-item>
+            <ion-item> <b padding>Dog-friendly: </b> Yes</ion-item>
+            <ion-item> <b padding>Fires Allowed: </b> No</ion-item>
+            </ion-card-content>
+            <ion-button expand="full" color="secondary" (click)="alert()">Add to My Trail List</ion-button>
+        
+          </ion-card>
+          <ion-card padding color="primary">{{Value}}</ion-card>
+          <ion-card color="primary">
+          <ion-slides scrollbar="true">
+            <ion-slide style="width:100%;height: 2.0in;">
+                <img class="slideimg" src="../assets/River place nature trail/River Place Nature Trail1.jpg" style="width:100%;height:auto;" >
+            </ion-slide>
+            <ion-slide style="width:100%;height: 2.0in;">
+              <img class="slideimg" src="..\assets\River place nature trail\River Place Nature Trail2.jpg" style="width:100%;height:auto;" >            
+            </ion-slide>
+            <ion-slide style="width:100%;height: 2.0in;">
+              <img class="slideimg" src="..\assets\River place nature trail\River Place Nature Trail3.jpg" style="width:100%;height:auto;" >            
+            </ion-slide>
+            <ion-slide style="width:100%;height: 2.0in;">
+              <img class="slideimg" src="..\assets\River place nature trail\River Place Nature Trail4.jpg" style="width:100%;height:auto;" >            
+            </ion-slide>
+            <ion-slide style="width:100%;height: 2.0in;">
+              <img class="slideimg" src="..\assets\River place nature trail\River Place Nature Trail5.jpg" style="width:100%;height:auto;" >            
+            </ion-slide>
+          
+          </ion-slides>
+          </ion-card>
+          </ion-content>

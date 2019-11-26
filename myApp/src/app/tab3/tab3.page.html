@@ -1,9 +1,29 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+    <ion-toolbar color="primary" padding>
+      
+      <ion-img src="../assets/TXSTimg.jpg" ></ion-img>
+         
+      
+      
+    </ion-toolbar>
+  </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-card color="primary">
+  <div class="ion-padding">
+    <span><img src={{icon}}/></span>
+  </div>
+</ion-card>
+<ion-card padding color="primary">
+    
+        <span><span style="position: relative; bottom: 15px;">Temperature: {{temperature}}</span><p>
+      
+        </p><span style="position: relative; bottom: 15px;">Place: {{place}}</span><p>
+    
+        </p><span style="position: relative; bottom: 15px;">Conditions: {{type}}</span><p>
+    
+        </p><span style="position: relative; bottom: 15px;">Humidity: {{humidity}}</span><p>
+          
+        </p><span style="position: relative; bottom: 15px;" class="HikingSugg">Suggested Attire for your Hike: <p></p> {{SuggestedOutfit}}</span></span>
+</ion-card>
+</ion-content>
