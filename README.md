@@ -1,8 +1,7 @@
 # CS3398-Gorns-F2019
 
 # Transformers Hiking App
->  This App will give general information about Austin and San Marcos hiking. It will include hiking conditions, water levels, and   
-   weather conditions.
+>  This App will give general information about Austin and San Marcos hiking. It will include hiking conditions, water levels, and   weather conditions.
 
 ## Description
 > Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
