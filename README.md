@@ -6,9 +6,7 @@
 ## Description
 > Team Members: Andrew Baker, Daniel Greenberg, Nickson Mbwavi, Liliane Nzukou, Paxton Scott
   
-  --Members Achievments--
-  Andrew Baker: -Successfully Implemented Geolocation to feed into OpenWeather API and return subsequent data.
-                -Implmented Google Maps API and set up User Interface and themeing of app.
+ 
 
 ## Table of contents
 * [General info](#general-info)
@@ -100,6 +98,10 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 * ![nextsteps](https://img.shields.io/badge/Nickson's-Next%20Steps-brightgreen) : Completing adding UI features.
 * ![status](https://img.shields.io/badge/Andrew's-Status-blue) : working on overlaying tab menu at the bottom of the app.
 * ![nextsteps](https://img.shields.io/badge/Andrew's-Next%20Steps-brightgreen) : Completing the creation of overlaying tab menu at the bottom of the app to help with a main form of routing for users.
+
+## Achievements
+ * Andrew Baker: -Successfully Implemented Geolocation to feed into OpenWeather API and return subsequent data.
+                -Implmented Google Maps API and set up User Interface and themeing of app.
 
 ## Documentations
 * [Sketch of App Appearance](./Appearance.jpg)
