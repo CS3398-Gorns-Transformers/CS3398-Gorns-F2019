@@ -89,7 +89,8 @@ Project is: _In Progress_ - We are in the begining states of app development foc
 
 * ![status](https://img.shields.io/badge/Paxton's-Status-blue) : Completed rough UI 
 * ![nextsteps](https://img.shields.io/badge/Paxton's-Next%20Steps-brightgreen) : Working on backend for water level UI
-* ![status](https://img.shields.io/badge/Liliane's-Status-blue) : Working on Clickable Google maps coordinates.
+* ![status](https://img.shields.io/badge/Liliane's-Status-blue) : Working on Clickable Google maps coordinates. Search of family 
+   friendly trails to incorporated into our app.
 * ![nextsteps](https://img.shields.io/badge/Liliane's-Next%20Steps-brightgreen) : Adding Google maps coordinates like latitude, 
   longitude, and altitude on the app.
 * ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Creating code to compute estimated time for walk on a hiking trail.
