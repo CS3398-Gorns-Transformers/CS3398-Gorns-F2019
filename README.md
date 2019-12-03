@@ -104,12 +104,12 @@ Project is: _In Progress_ - We are in the begining states of app development foc
                 -Implmented Google Maps API and set up User Interface and themeing of app.
 
 ## Documentations
-* [Sketch of App Appearance](./Appearance.jpg)
-* [Sketch of Feature Hierarchy](./FeatureHierarchy.jpg)
-* [List of Search Filter Criteria](./SearchFilters.jpg)
-* [Sketch of Weather Panel Appearance](./Weather.jpg)
-* [Sketch of clickable map](./ClickableMap.png)
-* [UI - Sprint 2](./ui.png)
+* [Sketch of App Appearance](./documents/Appearance.jpg)
+* [Sketch of Feature Hierarchy](./documents/FeatureHierarchy.jpg)
+* [List of Search Filter Criteria](./documents/SearchFilters.jpg)
+* [Sketch of Weather Panel Appearance](./documents/Weather.jpg)
+* [Sketch of clickable map](./documents/ClickableMap.png)
+* [UI - Sprint 2](./documents/ui.png)
 
 
 ## Inspiration
