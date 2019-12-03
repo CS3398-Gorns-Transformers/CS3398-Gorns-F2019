@@ -85,7 +85,7 @@ To-do list:
 * 
 
 ## Status
-Project is: _In Progress_ - We are in the begining states of app development focusing mainly on front end development until we have a product to test against a back end.
+Project is: _In Progress_ - We are in the final states of app development focusing now on both front and back end development.
 
 * ![status](https://img.shields.io/badge/Paxton's-Status-blue) : Completed rough UI 
 * ![nextsteps](https://img.shields.io/badge/Paxton's-Next%20Steps-brightgreen) : Working on backend for water level UI
