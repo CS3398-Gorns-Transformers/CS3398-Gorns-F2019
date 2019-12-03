@@ -1,12 +1,115 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Trails
-    </ion-title>
+  <ion-toolbar color="primary">
+    
+       <ion-img src="..\assets\TXSTimg.jpg" ></ion-img>
+        
+    
+    
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-<div #mapElement class="map"></div>
+<!---- create card for trails  -->
 
+<ion-content class="card-background-page" padding-top padding-bottom>
+<ion-card padding-top class="card">
+    <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
+    <div class="card-title">Barton Creek</div>
+    <div class="card-subtitle">Austin,TX</div>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button (click)="presentModal()">
+          <ion-icon name="pin"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+  
+ 
+    
+      <ion-item routerLink="/barton-creek" routerDirection="root">
+        <ion-icon slot="start" color="white" name="add-circle-outline"></ion-icon>
+        <ion-label>About Barton Creek Trail</ion-label>
+      </ion-item>
+
+
+</ion-card>
+<ion-card>
+    <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
+    <div class="card-title">River Place Nature Trail</div>
+    <div class="card-subtitle">Austin,TX</div>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button (click)="presentModal()">
+          <ion-icon name="pin"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+  
+ 
+    
+   
+      <ion-item routerLink="/river-place-nature-trail" routerDirection="root">
+        <ion-icon slot="start" color="white" name="add-circle-outline"></ion-icon>
+        <ion-label>About River Place Nature Trail</ion-label>
+      </ion-item>
+
+</ion-card>
+<ion-card>
+    <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
+    <div class="card-title">Turkey Creek Trail</div>
+    <div class="card-subtitle">Austin,TX</div>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button (click)="presentModal()">
+          <ion-icon name="pin"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+  
+ 
+    
+   
+      <ion-item routerLink="/turkey-creek-trail" routerDirection="root">
+        <ion-icon slot="start" color="white" name="add-circle-outline"></ion-icon>
+        <ion-label>About Turkey Creek Trail</ion-label>
+      </ion-item>
+
+</ion-card>
+<ion-card>
+    <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_357,q_75,w_537/https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Barton-Creek-Green-belt_Austin-Parks-and-Recreation-Department-5--6c2cc4dfa6c4701_6c2cc7c8-c93e-66f1-7dcada42018bbc7c.jpg">
+    <div class="card-title">St. Edward's Park</div>
+    <div class="card-subtitle">Austin,TX</div>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button (click)="presentModal()">
+          <ion-icon name="pin"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+  
+ 
+    
+   
+      <ion-item routerLink="/st-edwards-park" routerDirection="root">
+        <ion-icon slot="start" color="white" name="add-circle-outline"></ion-icon>
+        <ion-label>About St. Edward's Park Trail</ion-label>
+      </ion-item> 
+</ion-card>
 </ion-content>
+
+
+<script>
+  customElements.define('modal-content', class ModalContent extends HTMLElement {
+    connectedCallback() {
+      
+    }
+  });
+  let currentModal = null;
+  const controller = document.querySelector('ion-card');
+  const button = document.querySelector('ion-button');
+  button.addEventListener('click', createModal);
+  function createModal() {
+    controller.create({
+      component: 'modal-content'
+    }).then(modal => {
+      modal.present();
+      currentModal = modal;
+    });
+  }
+  function dismissModal() {
+    if (currentModal) {
+      currentModal.dismiss().then(() => { currentModal = null; });
+    }
+  }
+</script>
