@@ -106,6 +106,9 @@ Project is: _In Progress_ - We are in the final states of app development focusi
  * Liliane Nzukou: - Found information on trails that are family-friendly and other trails features.
                    - Implemented geocoding in Java, but did not incorporated into our app.
                    - Struggled with understanding ionic.
+ * Paxton Scott: - Implemented images into Front-End (Picture can be found in documents)
+                   - Added Description of Trails to Modals
+                
 
 
 ## Documentations
@@ -115,6 +118,7 @@ Project is: _In Progress_ - We are in the final states of app development focusi
 * [Sketch of Weather Panel Appearance](./documents/Weather.jpg)
 * [Sketch of clickable map](./documents/ClickableMap.png)
 * [UI - Sprint 2](./documents/ui.png)
+* [Implemented Images (Front-End) - Sprint 3](./documents/Modified Front-End.png)
 
 
 ## Inspiration
