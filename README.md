@@ -93,8 +93,8 @@ Project is: _In Progress_ - We are in the final states of app development focusi
    friendly trails to incorporated into our app.
 * ![nextsteps](https://img.shields.io/badge/Liliane's-Next%20Steps-brightgreen) : Adding Google maps coordinates like latitude, 
   longitude, and altitude on the app. Working on the front end to incorporate family friendly trails into the app.
-* ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Creating code to compute estimated time for walk on a hiking trail.
-* ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Figuring out average speeds for walking, jogging, and biking.
+* ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Gathering information on trails in San Marcos.
+* ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Gathering more information on trails, such as night conditions, and coding information into the application.
 * ![status](https://img.shields.io/badge/Nickson's-Status-blue) : Working on front end for user friendly UI.
 * ![nextsteps](https://img.shields.io/badge/Nickson's-Next%20Steps-brightgreen) : Completing adding UI features.
 * ![status](https://img.shields.io/badge/Andrew's-Status-blue) : working on overlaying tab menu at the bottom of the app.
@@ -102,7 +102,9 @@ Project is: _In Progress_ - We are in the final states of app development focusi
 
 ## Achievements
  * Andrew Baker: -Successfully Implemented Geolocation to feed into OpenWeather API and return subsequent data.
-                -Implmented Google Maps API and set up User Interface and themeing of app.
+                 -Implemented Google Maps API and set up User Interface and themeing of app.
+ * Daniel Greenberg: -Gathered information on trails in Austin and San Marcos
+                     -Created a formula for calculating estimated hiking time, and found average walking speed for constant in calculations
 
 ## Documentations
 * [Sketch of App Appearance](./documents/Appearance.jpg)
