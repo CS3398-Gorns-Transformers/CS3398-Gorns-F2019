@@ -118,7 +118,7 @@ Project is: _In Progress_ - We are in the final states of app development focusi
 * [Sketch of Weather Panel Appearance](./documents/Weather.jpg)
 * [Sketch of clickable map](./documents/ClickableMap.png)
 * [UI - Sprint 2](./documents/ui.png)
-* [Implemented Images - Sprint 3](./documents/ModifiedFront-End.png)
+* [Implemented Images - Sprint 3](./documents/Front-End.png)
 
 
 ## Inspiration
