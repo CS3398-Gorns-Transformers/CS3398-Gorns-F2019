@@ -76,9 +76,9 @@ npm install standard --global
 
 ## Features
 List of features ready and TODOs for future development
-* Austin hiking conditions
-* Austin water levels
-* Austin weather conditions
+* Austin and San Marcos hiking conditions
+* Austin and San Marcos water levels
+* Austin and San Marcos weather conditions
 
 To-do list:
 * Add unit testing
