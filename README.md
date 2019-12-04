@@ -87,16 +87,14 @@ To-do list:
 ## Status
 Project is: _In Progress_ - We are in the final states of app development focusing now on both front and back end development.
 
-* ![status](https://img.shields.io/badge/Paxton's-Status-blue) : Completed rough UI 
-* ![nextsteps](https://img.shields.io/badge/Paxton's-Next%20Steps-brightgreen) : Working on backend for water level UI
-* ![status](https://img.shields.io/badge/Liliane's-Status-blue) : Working on Clickable Google maps coordinates. Search of family 
-   friendly trails to incorporated into our app.
-* ![nextsteps](https://img.shields.io/badge/Liliane's-Next%20Steps-brightgreen) : Adding Google maps coordinates like latitude, 
-  longitude, and altitude on the app. Working on the front end to incorporate family friendly trails into the app.
+* ![status](https://img.shields.io/badge/Paxton's-Status-blue) : Completed Added images for each trail.
+* ![nextsteps](https://img.shields.io/badge/Paxton's-Next%20Steps-brightgreen) :  Added description to Turkey Creek & St. Edwards trails. Reorganized file structure.
+* ![status](https://img.shields.io/badge/Liliane's-Status-blue) :  Search of family friendly trails to incorporated into our app.
+* ![nextsteps](https://img.shields.io/badge/Liliane's-Next%20Steps-brightgreen) : Working on the front end to incorporate family friendly trails into the app.
 * ![status](https://img.shields.io/badge/Daniel's-Status-blue) : Gathering information on trails in San Marcos.
 * ![nextsteps](https://img.shields.io/badge/Daniel's-Next%20Steps-brightgreen) : Gathering more information on trails, such as night conditions, and coding information into the application.
 * ![status](https://img.shields.io/badge/Nickson's-Status-blue) : Working on front end for user friendly UI.
-* ![nextsteps](https://img.shields.io/badge/Nickson's-Next%20Steps-brightgreen) : Completing adding UI features.
+* ![nextsteps](https://img.shields.io/badge/Nickson's-Next%20Steps-brightgreen) : Worked on adding a feature to show groups hiking.
 * ![status](https://img.shields.io/badge/Andrew's-Status-blue) : working on overlaying tab menu at the bottom of the app.
 * ![nextsteps](https://img.shields.io/badge/Andrew's-Next%20Steps-brightgreen) : Completing the creation of overlaying tab menu at the bottom of the app to help with a main form of routing for users.
 
@@ -105,6 +103,10 @@ Project is: _In Progress_ - We are in the final states of app development focusi
                  -Implemented Google Maps API and set up User Interface and themeing of app.
  * Daniel Greenberg: -Gathered information on trails in Austin and San Marcos
                      -Created a formula for calculating estimated hiking time, and found average walking speed for constant in calculations
+ * Liliane Nzukou: - Found information on trails that are family-friendly and other trails features.
+                   - Implemented geocoding in Java, but did not incorporated into our app.
+                   - Struggled with understanding ionic.
+
 
 ## Documentations
 * [Sketch of App Appearance](./documents/Appearance.jpg)
